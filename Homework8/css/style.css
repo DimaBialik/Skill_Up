@@ -1,0 +1,79 @@
+/* 1 task */
+.box1 { 
+    margin: 100px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(30deg, rgba(246, 240, 77, 0.88) 0%, rgba(21, 51, 228, 0.88) 100%), #FF0202;
+    border: 3px solid #6979B8;
+    box-sizing: border-box;
+    box-shadow: -5px 10px 9.5px rgba(0, 0, 0, 0.3);
+    transform: rotate(-35deg);
+}
+/* 2 task */
+.box2 { 
+    border: 1px solid rgb(238, 223, 223);
+    padding-top: 200px;
+    margin: 200px;
+    width: 200px;
+    background-color: rgba(41, 41, 223, 0.7);
+    animation: circle 1s infinite;
+}
+
+@-webkit-keyframes circle { 
+    
+    0% { 
+        transform: rotate(0deg);
+    }
+    5% { 
+        transform: rotate(5deg);
+    }
+    10% { 
+        transform: rotate(10deg);
+    }
+    15% { 
+        transform: rotate(15deg);
+    }
+    20% { 
+        transform: rotate(20deg);
+    }
+    25% { 
+        transform: rotate(25deg);
+    }
+    30% { 
+        transform: rotate(30deg);
+    }
+    35% { 
+        transform: rotate(35deg);
+    }
+    40% { 
+        transform: rotate(40deg);
+    }
+    45% { 
+        transform: rotate(45deg);
+    }
+    50% { 
+        transform: rotate(50deg);
+    }
+    55% { 
+        transform: rotate(55deg);
+    }
+    60% { 
+        transform: rotate(60deg);
+    }
+    65% { 
+        transform: rotate(65deg);
+    }
+    75% { 
+        transform: rotate(75deg);
+    }
+    80% { 
+        transform: rotate(80deg);
+    }
+    90% { 
+        transform: rotate(85deg);
+    }
+    100% { 
+        transform: rotate(90deg);
+    }
+            
+}

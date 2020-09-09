@@ -1,0 +1,152 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+ /* first task */
+.first_task, .second_task, .third_task, .fourth_task, .fifth_task { 
+    margin: 20px;
+    width: 500px;
+    padding: 20px;
+}
+.first_task p { 
+  font-family: 'Roboto', sans-serif;  
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.first_task p::after { 
+    content: "”";
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: brown;
+}
+.first_task p::before { 
+    content:  "“"  ;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: brown; 
+}
+/* second task */
+.list_style { 
+        list-style: square;
+
+}
+.list_item:first-child {
+    color: rgb(160, 9, 67);
+}
+.list_item:last-child {
+    color: rgb(6, 202, 82);
+    font-style: italic;
+}
+/* third task */
+.second_list { 
+  
+}
+.third_task li { 
+    text-align: center;
+    display: inline-block; 
+    margin: 0 5px 5px 0;
+    background-color: rgb(202, 201, 201);
+    width: 120px;
+    height: 20px;
+    border:1px solid grey;
+    display: inline-block;
+    }
+.third_task li:nth-of-type(3), .third_task li:nth-of-type(7) { 
+    background-color: rgb(171, 233, 120);
+}
+/* fourth task */
+
+.fourth_task, a{ 
+    margin: 0 auto;
+    width: 750px;
+    font-size: 15px;
+    color: white;
+    
+}
+header { 
+    height: 40px;
+    background-color: #b1d0b0;
+    line-height: 3em;
+    padding-left: 10px;
+    
+    
+}
+nav { 
+    height: 40px;
+    background-color: #68be65;
+    line-height: 3em;
+    padding-left: 10px;
+}
+#sidebar { 
+    height: 400px;
+    width: 25%;
+    float: left;
+    background-color: #5992d7;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#sidebar div { 
+    padding-top: 20px;
+}
+#content { 
+    height: 400px;
+    float: left;
+    width: 46%;
+    background-color: #96b4da;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#content div { 
+    padding-top: 20px;
+}
+aside { 
+    height: 400px;
+    width: 25%;
+    float: right;
+    background-color: #5992d7;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+aside div { 
+    padding-top: 20px;
+}
+
+footer {
+    height: 40px; 
+    clear: both;
+    background-color: #b1d0b0;
+    line-height: 3em;
+    padding-left: 10px;
+}
+/* fifth task */
+.fifth_task { 
+    margin: 0 auto;
+    height: 200px;
+    width: 600px;
+    background-color: rgb(230, 225, 225);
+    
+}
+.box { 
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 40px;
+   
+}
+.box h1 { 
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    text-align: center;
+    width: 200px;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    
+}
+.box p { 
+    padding-top: 10px;
+    margin-left: 10px;
+}

@@ -1,0 +1,43 @@
+.content { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+    color: green;
+    text-align: justify;
+
+
+}
+.icon {
+    text-decoration: none;
+}
+
+.icon-facebook  { 
+    color: grey;
+}
+.icon-facebook:hover  { 
+    color: #3b5998;
+}
+
+.icon-youtube  { 
+    color: grey;
+}
+.icon-youtube:hover  { 
+    color: #c4302b;
+}
+
+.icon-instagram {
+    color: grey;
+}
+.icon-instagram:hover  {
+    color: #3f729b;
+}
+
+.icon-pinterest { 
+    color: grey;
+}
+.icon-pinterest:hover  { 
+ color: red;
+   
+}

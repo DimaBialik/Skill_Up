@@ -1,0 +1,160 @@
+body { 
+    margin: 0 auto;
+    width: 100%;
+}
+.container { 
+   width: 1360px;
+   background: #E5E5E5;
+   margin: 0 auto;
+}
+.header { 
+  padding-top: 58px;
+  margin: 0 auto;
+   width: 1110px;
+    
+}
+.header__hero { 
+    display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+ }
+
+.hero__search_icon { 
+  width: 20px;
+  height: 20px;
+  
+}
+.icon-search { 
+  color: #000;
+}
+.hero__search_icon:hover { 
+  transform: scale(2,2);
+}
+.hero__menu_icon{ 
+  width: 34px;
+  height: 14px;
+}
+
+ul { 
+  list-style: none;
+}
+  .hero__menu_icon1 { 
+    position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  font-family: 'Fira Sans', sans-serif;
+  width: 300px;
+  text-align: center;
+  
+
+}
+.hero_link { 
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 2px;
+  
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  font-family: 'Fira Sans', sans-serif;
+  
+  
+}
+.hero__menu_icon1 li :hover { 
+  color: #EF8E70;
+}  
+
+ul li ul { 
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  right: 247px;
+  
+  background-color: #E5E5E5;
+  
+
+}
+ul li:hover > ul { 
+  display: block;
+}
+
+.header__content { 
+    display: flex;
+  justify-content: space-between;
+  padding-top: 61px;
+}
+.content__info { 
+    padding-top: 38px; 
+}
+.info__title { 
+    width: 474px;
+    height: 140px;
+}
+.info__title h1{ 
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #151515;
+}
+.info__subtitle { 
+    width: 474px;
+    height: 81px;
+    padding-top: 28px;
+}
+.info__subtitle p {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+    opacity: 0.7;
+}
+.info__bt { 
+    width: 189px;
+    height: 50px;
+    padding-top: 56px;
+}
+.info__bt button { 
+    width: 189px;
+    height: 50px;
+    background: #4737FF;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.info__liner { 
+    width: 346px;
+    height: 18px;
+    padding-top: 189px;
+}
+.content__wrap { 
+    width: 665px;
+    height: 840px;
+    position: relative;
+}
+.wrap__img { 
+    position: absolute;
+    left: 95px;
+}
+.wrap__inner { 
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    right: 256px;
+    top: 369px;
+}
+

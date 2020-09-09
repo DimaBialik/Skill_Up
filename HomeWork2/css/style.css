@@ -1,0 +1,89 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/* first task */
+.first { 
+    padding-top: 20px;
+}
+
+.heading { 
+    padding-left: 20px;
+    
+}
+.container-head { 
+    padding-top: 10px;
+    padding-left: 38px;
+    
+}
+.container-list { 
+    padding-left: 50px;
+}
+
+/* second task */
+.second { 
+    padding-top: 20px;
+    padding-left: 38px; 
+}
+.table-task { 
+    border-spacing: 0;
+        border-collapse: collapse;
+    border: 2px solid black; 
+}
+.table-head {
+    padding: 5px;
+    border: 1.5px solid black;
+}
+.table-body { 
+    padding: 5px;
+    border: 1.5px solid rgb(177, 174, 174);
+    font-weight: 400;
+ }
+ .table-body-italik { 
+    font-style: italic;
+}
+/* third task */
+
+.third { 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 38px; 
+}
+.table-form { 
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.color-head { 
+    background: rgb(177, 147, 231);
+    font-weight: 800;
+}
+.left { 
+    text-align: left;
+    
+}
+.form-line { 
+    border: 1px solid black;
+}
+
+/* fourth task */
+.fourth { 
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+   
+}
+.form-fruit { 
+    background: rgb(233, 233, 113);
+}
+.head { 
+    background: rgb(255, 174, 0);
+}
+/* .fruit-eat-chouse { 
+    width: 150px;
+} */
+.table-fruit { 
+    width: 30px;
+    padding-left: 100px;
+}
